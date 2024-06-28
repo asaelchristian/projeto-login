@@ -52,29 +52,3 @@ h1{
     overflow: hidden;
 }  
 
-#iemail{
-    border: 3px solid #5f2c82;
-    display: inline-block; 
-    margin: 0 auto;
-}
-
-@media screen and (orientation: landscape) {
-    main{
-        width: 90vw;
-        height: 80vh;
-    }
-
-    #img{
-        float: left;
-        width: 40%;
-        height: 100%;
-        border-radius: 20px 0px 0px 20px;
-        background-position: center center;
-    }
-
-    #content{
-        float: right;
-        width: 60%;
-        height: 100%;
-    }
-}
