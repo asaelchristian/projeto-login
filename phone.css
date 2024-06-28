@@ -50,5 +50,79 @@ h1{
 #content{
     padding: 15px;
     overflow: hidden;
-}  
+} 
 
+.campo{
+    background-color: var(--color1);
+    border-radius: 8px;
+    margin: 5px 0px;
+    height: 40px;
+    border: 2px #5f2c82 solid;
+}
+
+.campo span{
+    color: white;
+    font-size: 2em;
+    height: 40px;
+    padding: 5px;
+}
+
+.campo input{
+    background-color: #77dcd8;
+    font-size: 1em;
+    border: none;
+    height: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    width: calc(100% - 47px);
+    transform: translate(1px, -14px);
+}
+
+.campo input:focus-within{
+    background-color: white;
+}
+
+label{
+    display: none;
+}
+
+form input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+form input[type=submit]:hover{
+    background-color: #0f5b58;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.botao{
+    display: block;
+    font-size: 1em;
+    border: 1px solid #0f5b58;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.botao:hover{
+    background-color: #49a09d;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+span{
+    font-size: 1em;
+}
