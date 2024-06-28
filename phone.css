@@ -126,3 +126,7 @@ form input[type=submit]:hover{
 span{
     font-size: 1em;
 }
+
+.botao span{
+    transform: translateY(7px);
+}
