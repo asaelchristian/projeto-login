@@ -21,7 +21,7 @@ html, body {
 
 main{
     border-radius: 25px;
-    min-height: 500px;
+    min-height: 400px;
     max-height: 700px;
     width: 300px;
     background-color: white;
